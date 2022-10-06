@@ -1,0 +1,123 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+$Healling: #d73b3b;
+$Stamina: #a8b31a;
+$Mana: #1552a1;
+$Supin: #8b44ce;
+
+.item {
+  background-image: url("/assets/imagem/testefundo.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+ 
+  &__imagem {
+    min-width: 240px;
+    @media (max-width: $desktop_xsm) {
+      width: 100%; 
+    }
+    img {
+      border-radius: 8px;
+      width: 150px;
+      float: left;
+      
+    }
+
+    @media (max-width: $mobile) {
+        
+        
+        img {
+            float: none;
+        }
+
+
+    }
+  }
+  &__descricao {
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0 20px;
+    @media (max-width: $desktop_xsm) {
+        flex-direction:row;
+        margin-top: 20px;
+      padding: 0;
+      
+      
+    }
+  }
+  &__titulo {
+    h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $dark-grey;
+      font-size: 1.3rem;
+      font-weight: 700;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+  }
+  &__tags {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 700px;
+    @media (max-width: $desktop_xsm) {
+      justify-content: flex-end;
+    }
+    @media (max-width: $mobile) {
+      justify-content: flex-start;
+      
+    }
+    > div {
+      margin: 10px;
+      
+    }
+  }
+  &__tipo {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    &__healing {
+      background-color: $Healling;
+      color: white;
+    }
+    &__stamina {
+      background-color: $Stamina;
+      color: white;
+    }
+    &__mana {
+      background-color: $Mana;
+    }
+    &__supin {
+      background-color: $Supin;
+    }
+  }
+  &__syze,
+  &__type,
+  &__price {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+  &__price {
+    color: $dark;
+    font-size: 1.25rem;
+  }
+}

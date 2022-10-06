@@ -1,0 +1,169 @@
+[
+    {
+      "title": "Mini Healing",
+      "description": "Disposable item, which is potion that restores HP by 35%",
+      "photo": "/assets/imagem/Sem-Título-1.png",
+      "size": 400,
+      "serving": "35%",
+      "price": 6.600,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Healing"
+      }
+    },
+
+    {
+    "title": "Healing",
+    "description": "Disposable item, which is potion that restores HP by 50%",
+    "photo": "/assets/imagem/Sem-Título-2.png",
+    "size": 600,
+    "serving": "50%",
+    "price": 9.000,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "Healing"
+    }
+    },
+
+    {
+        "title": " Grain Healing",
+        "description": "Disposable item, which is potion that restores HP by 75%",
+        "photo": "/assets/imagem/Sem-Título-3.png",
+        "size": 1000,
+        "serving": "75%",
+        "price": 12.000,
+        "id": 3,
+        "category": {
+          "id": 1,
+          "label": "Healing"
+    }
+    },
+
+    {
+        "title": "Mini Stamina",
+        "description": "Disposable item, which is potion that restores SP by 35%",
+        "photo": "/assets/imagem/sp.png",
+        "size": 400,
+        "serving": "35%",
+        "price": 6.600,
+        "id": 4,
+        "category": {
+          "id": 2,
+          "label": "Stamina"
+        }
+      },
+  
+      {
+      "title": "Stamina",
+      "description": "Disposable item, which is potion that restores SP by 50%",
+      "photo": "/assets/imagem/sp-2.png",
+      "size": 600,
+      "serving": "50%",
+      "price": 9.000,
+      "id": 5,
+      "category": {
+        "id": 2,
+        "label": "Stamina"
+      }
+      },
+  
+      {
+          "title": " Grain Stamina",
+          "description": "Disposable item, which is potion that restores SP by 75%",
+          "photo": "/assets/imagem/sp-3.png",
+          "size": 1000,
+          "serving": "75%",
+          "price": 12.000,
+          "id": 6,
+          "category": {
+            "id": 2,
+            "label": "Stamina"
+      }
+      },
+
+      {
+        "title": "Mini Mana",
+        "description": "Disposable item, which is potion that restores MP by 35%",
+        "photo": "/assets/imagem/mp.png",
+        "size": 400,
+        "serving": "35%",
+        "price": 6.600,
+        "id": 7,
+        "category": {
+          "id": 3,
+          "label": "Mana"
+        }
+      },
+  
+      {
+      "title": "Mana",
+      "description": "Disposable item, which is potion that restores MP by 50%",
+      "photo": "/assets/imagem/mp-2.png",
+      "size": 600,
+      "serving": "50%",
+      "price": 9.000,
+      "id": 8,
+      "category": {
+        "id": 3,
+        "label": "Mana"
+      }
+      },
+  
+      {
+          "title": " Grain Mana",
+          "description": "Disposable item, which is potion that restores MP by 75%",
+          "photo": "/assets/imagem/mp-3.png",
+          "size": 1000,
+          "serving": "75%",
+          "price": 12.000,
+          "id": 9,
+          "category": {
+            "id": 3,
+            "label": "Mana"
+      }
+      },
+        
+      {
+        "title": "Mini Supin",
+        "description": "Disposable item, which is potion that restores HP, SP, MP by 30% all at once.",
+        "photo": "/assets/imagem/all.png",
+        "size": 400,
+        "serving": "30%",
+        "price": 9.300,
+        "id": 10,
+        "category": {
+          "id": 4,
+          "label": "Supin"
+        }
+      },
+  
+      {
+      "title": "Supin",
+      "description": "Disposable item, which is potion that restores HP, SP, MP by 50% all at once.",
+      "photo": "/assets/imagem/all-2.png",
+      "size": 600,
+      "serving": "50%",
+      "price": 12.600,
+      "id": 11,
+      "category": {
+        "id": 4,
+        "label": "Supin"
+      }
+      },
+  
+      {
+          "title": " Grain Supin",
+          "description": "Disposable item, which is potion that restores HP, SP, MP by 75% all at once.",
+          "photo": "/assets/imagem/all-3.png",
+          "size": 1000,
+          "serving": "75%",
+          "price": 24.000,
+          "id": 12,
+          "category": {
+            "id": 4,
+            "label": "Supin"
+      }
+      }
+]

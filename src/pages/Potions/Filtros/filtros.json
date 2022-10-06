@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Healing potion",
+      "id": 1
+    },
+    {
+      "label": "Stamina potion",
+      "id": 2
+    },
+    {
+      "label": "Mana potion",
+      "id": 3
+    },
+    {
+      "label": "Supin potion",
+      "id": 4
+    }
+  ]
