@@ -7,20 +7,26 @@ $Mana: #1552a1;
 $Supin: #8b44ce;
 
 .item {
-  background-image: url("/assets/imagem/testefundo.jpg");
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  transition: .2s ease-in;
   width: 90%;
  
+  &:hover {
+    background-color: $grey;
+  }
+
   &__imagem {
     min-width: 240px;
     @media (max-width: $desktop_xsm) {
-      width: 100%; 
+      width: 100%;
     }
     img {
       border-radius: 8px;
       width: 150px;
-      float: left;
+      
       
     }
 
@@ -44,7 +50,7 @@ $Supin: #8b44ce;
     padding: 0 20px;
     @media (max-width: $desktop_xsm) {
         flex-direction:row;
-        margin-top: 20px;
+      margin-top: 20px;
       padding: 0;
       
       
